@@ -1,0 +1,38 @@
+BrightTag.site('1PR3l09',function(s){
+s.dbe('url', 'location.href',{pageId:2433731});
+s.dbe('referralurl - engaged visits', 'document.referrer',{pageId:4067582});
+s.events.bind('san jose state university - download report button','a[href*\x3d\x22/impact/docs/PREZ_061921_Impact-Infographic%20Handout_18-19yr.pdf\x22]','DIRECT/click',{pageId:4067582});
+s.events.bind('san jose state university - request full report bc','a:contains(\x22Request Full Impact Report\x22)','DIRECT/click',{pageId:4067582});
+s.events.bind('san jose state university - download impact report form submit ','button:contains(\x22Submit\x22)','DIRECT/click',{pageId:4067582});
+s.events.bind('san jose state university - video click (direct)','a[href*\x3d\x22https://www.youtube.com/\x22]','DIRECT/click',{pageId:4067582});
+s.events.bind('san jose state university - video click (indirect)','a[href*\x3d\x22https://www.youtube.com/\x22]','click',{pageId:4067582});
+s.events.bind('san jose state university - download report button 2','a[href*\x3d\x22/impact/docs/PREZ_061921_Impact-Infographic%20Handout_18-19yr.pdf\x22]','click',{pageId:4067582});
+s.when('bt_data(\x27url\x27).indexOf(\x22/transform\x22) \x3e -1',function(){
+s.events.on('san jose state university - video click (indirect)').fire(7508811);
+s.events.on('san jose state university - video click (direct)').fire(7508811);
+});
+s.events.on('san jose state university - download report button').fire(7508913);
+s.events.on('san jose state university - download report button 2').fire(7508913);
+s.when('bt_data(\x27url\x27).indexOf(\x22/impact-report\x22) \x3e -1',function(){
+s.events.on('san jose state university - download impact report form submit ').fire(7510001);
+});
+s.events.on('san jose state university - download report button 2').fire(7510002);
+s.events.on('san jose state university - download report button').fire(7510002);
+s.when('bt_data(\x27url\x27).indexOf(\x22/transform\x22) \x3e -1',function(){
+s.events.on('san jose state university - request full report bc').fire(7510003);
+});
+s.domready(function(){
+s.tag('\x3cimg height\x3d\x221\x22 width\x3d\x221\x22 style\x3d\x22border-style:none;\x22 alt\x3d\x22\x22 src\x3d\x22https://insight.adsrvr.org/track/pxl/?adv\x3dkuzst2x\x26ct\x3d0:wd6kwxf\x26fmt\x3d3\x22/\x3e',{tagId:7508807});
+s.tag('\x3cscript type\x3d\x22text/javascript\x22\x3e\n_linkedin_partner_id \x3d \x223268322\x22;\nwindow._linkedin_data_partner_ids \x3d window._linkedin_data_partner_ids || [];\nwindow._linkedin_data_partner_ids.push(_linkedin_partner_id);\n\x3c/script\x3e\x3cscript type\x3d\x22text/javascript\x22\x3e\n(function(l) {\nif (!l){window.lintrk \x3d function(a,b){window.lintrk.q.push([a,b])};\nwindow.lintrk.q\x3d[]}\nvar s \x3d document.getElementsByTagName(\x22script\x22)[0];\nvar b \x3d document.createElement(\x22script\x22);\nb.type \x3d \x22text/javascript\x22;b.async \x3d true;\nb.src \x3d \x22https://snap.licdn.com/li.lms-analytics/insight.min.js\x22;\ns.parentNode.insertBefore(b, s);})(window.lintrk);\n\x3c/script\x3e\n',{tagId:7509527});
+s.tag('\x3c!-- Facebook Pixel Code --\x3e\n\x3cscript\x3e\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n\x3df.fbq\x3dfunction(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq\x3dn;n.push\x3dn;n.loaded\x3d!0;n.version\x3d\x272.0\x27;\nn.queue\x3d[];t\x3db.createElement(e);t.async\x3d!0;\nt.src\x3dv;s\x3db.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window, document,\x27script\x27,\n\x27https://connect.facebook.net/en_US/fbevents.js\x27);\nfbq(\x27init\x27, \x271393207021058801\x27);\nfbq(\x27track\x27, \x27PageView\x27);\n\x3c/script\x3e\n\n\x3c!-- End Facebook Pixel Code --\x3e',{tagId:7510000});
+s.secondary(function(c){
+c.when('bt_data(\x27url\x27).indexOf(\x22/impact-transform-leads_LP-thank-you.html\x22) \x3e -1').fire(7508806);
+c.when('bt_data(\x27url\x27).indexOf(\x22pages.sjsu.edu/impact-report.html\x22) \x3e -1').fire(7508813);
+c.when('(bt_data(\x27url\x27).indexOf(\x22/transform/\x22) \x3e -1 \x26\x26 bt_data(\x27referralurl - engaged visits\x27).indexOf(\x22sjsu.edu/transform/\x22) \x3e -1)').fire(7508814);
+c.when('bt_data(\x27url\x27).indexOf(\x22/transform/\x22) \x3e -1').fire(7508815);
+c.when('bt_data(\x27url\x27).indexOf(\x22/impact\x22) \x3e -1').fire(7510004);
+c.when('bt_data(\x27url\x27).indexOf(\x22/transform\x22) \x3e -1').fire(7510005);
+c.when('bt_data(\x27url\x27).indexOf(\x22/impact/\x22) \x3e -1').fire(7510205);
+});
+});
+});
