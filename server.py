@@ -1,3 +1,6 @@
+import threading
+import socket
+
 # IF Simple HTTP/1.0 Server
 HTTP1 = True
 
@@ -28,8 +31,7 @@ for i in range(0, n):
     if (sys.argv[i]) == "-port":
         portt = 1
 
-import threading
-import socket
+
 
 # Define socket port and host
 SERVERHOST = 'localhost'
